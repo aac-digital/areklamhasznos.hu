@@ -4,7 +4,7 @@ body, html {
   color: #ffffff;
   background-image: url(images/head_bg.jpg);
   background-attachment: fixed;
-  background-size: auto 100%;
+  background-size: cover;
   backgorund-repeat:no-repeat;
   background-position:center;
 }
@@ -26,7 +26,7 @@ body, html {
       -ms-transform: translatez(0);
        -o-transform: translatez(0);
           transform: translatez(0);
-  
+
 }
 
 header {
