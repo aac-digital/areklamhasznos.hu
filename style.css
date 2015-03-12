@@ -1,0 +1,27 @@
+body, html {
+  background-color: yellow;
+  font-family: 'Quicksand', sans-serif;
+  color: #ffffff;
+}
+
+#main-content {
+  width: 1280px;
+}
+
+header {
+  height: 548px;
+  background-image: url(images/head_bg.jpg);
+  text-align: center;
+  padding-top: 260px;
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+header p {
+  margin: 28px auto 0;
+  max-width: 660px;
+  font-size: 13px;
+}
