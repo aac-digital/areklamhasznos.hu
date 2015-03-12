@@ -2,9 +2,11 @@ body, html {
   background-color: #cacaca;
   font-family: 'Quicksand', sans-serif;
   color: #ffffff;
-  background-image: url(images/head_bg.jpg) no-repeat;
+  background-image: url(images/head_bg.jpg);
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: auto 100%;
+  backgorund-repeat:no-repeat;
+  background-position:center;
 }
 
 .container {
