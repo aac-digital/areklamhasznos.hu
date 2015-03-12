@@ -4,9 +4,10 @@ body, html {
   color: #ffffff;
   background-image: url(images/head_bg.jpg);
   background-attachment: fixed;
+  background-size: 100%;
 }
 
-#main-content {
+.container {
   width: 1280px;
 }
 
@@ -30,9 +31,13 @@ header p {
 #main {
   height: 416px;
   background-image: url(images/content_bg.jpg);
-  padding: 30px 163px 0;
+  background-size: 100%;
   font-size: 14px;
   color: #cccccc;
+}
+
+#main .container{
+  padding: 30px 163px 0;
 }
 
 #main h2{
@@ -102,10 +107,13 @@ header p {
 }
 
 footer {
-  padding-left: 124px;
   height: 228px;
   padding-top: 45px;
   background-color: #cacaca;
+}
+
+footer .container {
+  padding-left: 124px;
 }
 
 footer .row1 {
