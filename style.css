@@ -4,7 +4,9 @@ body, html {
   color: #ffffff;
   background-image: url(images/head_bg.jpg);
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: auto 100%;
+  backgorund-repeat:no-repeat;
+  background-position:center;
 }
 
 .container {
