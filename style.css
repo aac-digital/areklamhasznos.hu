@@ -2,6 +2,8 @@ body, html {
   background-color: #cacaca;
   font-family: 'Quicksand', sans-serif;
   color: #ffffff;
+  background-image: url(images/head_bg.jpg);
+  background-attachment: fixed;
 }
 
 #main-content {
@@ -10,7 +12,6 @@ body, html {
 
 header {
   height: 548px;
-  background-image: url(images/head_bg.jpg);
   text-align: center;
   padding-top: 260px;
 }
@@ -30,7 +31,7 @@ header p {
   height: 416px;
   background-image: url(images/content_bg.jpg);
   padding: 30px 163px 0;
-  font-size: 12px;
+  font-size: 14px;
   color: #cccccc;
 }
 
@@ -51,6 +52,15 @@ header p {
   font-size: 16px;
   font-weight: bold;
   color: #fff;
+}
+
+#main p,
+#main ul {
+  font-family: 'Roboto Slab', serif;
+}
+
+#main ul {
+  font-size: 12px;
 }
 
 #main .row {

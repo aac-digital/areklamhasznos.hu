@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Hogy egy reklám jó-e vagy sem, azon lehet vitatkozni</title>
   <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="bootstrap.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -72,5 +73,19 @@
       </div>
     </footer>
   </div>
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript">
+    var $header = $('header');
+
+    function setHeaderMarginTop() {
+      if (window.innerHeight > 630) {
+        $header.css('margin-top', window.innerHeight - 630);
+      }
+    }
+
+    setHeaderMarginTop();
+
+    window.onresize = setHeaderMarginTop;
+  </script>
 </body>
 </html>
