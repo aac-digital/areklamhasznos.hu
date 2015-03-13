@@ -7,6 +7,11 @@ body, html {
   background-size: cover;
   backgorund-repeat:no-repeat;
   background-position:center;
+  min-width: 1280px;
+}
+
+body {
+  position: relative;
 }
 
 .container {
@@ -95,6 +100,8 @@ header p {
   padding-left: 72px;
   background: no-repeat;
   background-position: 0 4px;
+  width: 50%;
+  float: left;
 }
 
 #main .cell-balance {
