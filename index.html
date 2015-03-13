@@ -81,17 +81,17 @@
     </footer>
   <script type="text/javascript" src="jquery.min.js"></script>
   <script type="text/javascript">
-    var $header = $('header');
+    var $body = $('body');
 
-    function setHeaderMarginTop() {
+    function setBodyMarginTop() {
       if (window.innerHeight > 630) {
-        $header.css('padding-top', window.innerHeight - 630);
+        $body.css('padding-top', window.innerHeight - 630);
       }
     }
 
-    setHeaderMarginTop();
+    setBodyMarginTop();
 
-    window.onresize = setHeaderMarginTop;
+    window.onresize = setBodyMarginTop;
   </script>
 </body>
 </html>
